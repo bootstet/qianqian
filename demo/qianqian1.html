@@ -65,6 +65,7 @@
     <div class="swiper-wrapper">
       <!-- <img src="http://b.hiphotos.baidu.com/fex/pic/item/ac345982b2b7d0a2f53c4158ccef76094a369a7a.jpg" class="lg-icon" /> -->
       <div class="swiper-slide slide1">
+        <audio src="./1111.pm3"  autoplay='http://music.163.com/#/m/song?id=287035'></audio>
         <div class="title">
           <span class="title-1">献</span>
           <span class="title-2">给</span>
@@ -232,6 +233,7 @@
   <!-- 导航等组件可以放在container之外 -->
   <script>
     $(function () {
+      $('audio')[0].play();
       console.log(1)
       var mySwiper = new Swiper('.swiper-container', {
         direction: 'vertical',
